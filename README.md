@@ -14,8 +14,8 @@
 |------|------|
 | **仪表盘** | 设备状态总览；USB ADB / Fastboot 设备监听与连接；本机重启 / 关机（Root 执行，被控端按连接状态自动选择指令） |
 | **玩机中心** | **应用管理**（打开自动加载、搜索、冻结 / 停用 / 解冻、提取 APK、静默卸载）、**字库备份**（全分区备份）、**分区管理**（提取 / 写入 / 擦除分区镜像）、**模块管理**（Magisk 模块开关 / 安装 / 删除）、**Payload 解包**（手机端直接解析 OTA 固件包，多核并行解压，按分区输出 `.img`）、**禁止卸载**（禁止 / 恢复指定应用的卸载，支持「禁止清除应用数据」）、**批量安装 / 批量卸载等功能** |
-| **一键 Root** | 兼容 SukiSU Ultra / KernelSU / Magisk / Magisk Alpha / APatch 五大管理器，自动推送管理器并修补 `boot` / `init_boot` 镜像 |
-| **Flash 菜单** | USB OTG 直连 Fastboot / FastbootD 设备：镜像刷写、临时启动、Bootloader 解锁 / 锁定 |
+| **一键 Root** | 兼容 SukiSU Ultra / KernelSU / Magisk / Magisk Alpha / APatch 五大管理器，自动推送管理器并修补 `boot` / `init_boot` 镜像 ，并对临时Root做了适配 |
+| **Flash 菜单** | USB OTG 直连 Fastboot / FastbootD 设备：镜像刷写、临时启动、Bootloader 解锁 / 锁定 /小米线刷脚本 /OPLUS线刷等功能 |
 | **设置** | 主题切换（浅色 / 深色 / 跟随系统 + Monet 动态取色）、检查更新、更新日志 |
 
 ## 使用前提
